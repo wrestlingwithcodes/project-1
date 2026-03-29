@@ -33,4 +33,5 @@ def password_generator():
 
         except ValueError:
             print("Invalid input! Please enter a number or 'quit'.")
+            return
 password_generator()

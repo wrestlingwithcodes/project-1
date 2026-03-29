@@ -102,7 +102,7 @@ def turtle_race():
                             if play_again == "y":
                                 turtle_race()
                             elif play_again == "n":
-                                import main_menu
+                                from main_menu import main_menu
                                 main_menu()
                             
                         else:                    
@@ -112,7 +112,7 @@ def turtle_race():
                             if play_again == "y":
                                 turtle_race()
                             elif play_again == "n":
-                                import main_menu
+                                from main_menu import main_menu
                                 main_menu()
                         time.sleep(1.0)
                         screen.exitonclick()

@@ -22,13 +22,13 @@ def time_converter():
         choice = input("\nSelect source (1-6): ").strip().lower()
         
         if choice == 'quit':
-            import converter_menu
+            from converter_menu import converter_menu
             converter_menu()
 
         target_choice = input("Select target (1-6): ").strip().lower()
         
         if target_choice == 'quit':
-            import converter_menu
+            from converter_menu import converter_menu
             converter_menu()
 
         if choice in zones and target_choice in zones:

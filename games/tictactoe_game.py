@@ -33,7 +33,7 @@ def tictactoe_game():
 
             if user_input == 'quit':
                 print("Returning to Games Menu...")
-                import games_menu
+                from games_menu import games_menu
                 time.sleep(0.75)
                 games_menu()
 
@@ -59,7 +59,7 @@ def tictactoe_game():
                 if game_end_choice == "y":
                     play_game()
                 elif game_end_choice == "n":
-                    import games_menu
+                    from games_menu import games_menu
                     games_menu()
 
                 return
@@ -68,5 +68,11 @@ def tictactoe_game():
 
         print_board(board)
         print("It's a draw!")
+        draw_choice = input(f"Play again? (y/n)")
+        if draw_choice == "y":
+            play_game()
+        elif draw_choice == "n":
+            from games_menu import games_menu
+            games_menu()
     play_game()
 tictactoe_game()

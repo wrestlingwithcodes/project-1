@@ -8,13 +8,13 @@ def length_converter():
         print("2. Centimeters (cm) to Inches")
         print("\nType 'quit' to go back.")
 
-        choice = input("\nSelect (1-2): ").strip().lower()
+        choice = input("\nSelect (1-2): ").lower()
         if choice == 'quit':
-            import main_menu
-            main_menu()
+            from converter_menu import converter_menu
+            converter_menu()
 
         try:
-            val = input("Enter length value (or 'quit'): ").strip().lower()
+            val = input("Enter length value (or 'quit'): ").lower()
             if val == 'quit': return
             length = float(val)
 
@@ -25,7 +25,7 @@ def length_converter():
                 res = length / 2.54
                 print(f"\n {length} cm = {res:.2f} inches")
 
-            input("\nPress Enter to continue...")
+            input("\nPress Enter to continue.")
         
         except ValueError:
             print("Invalid number!")

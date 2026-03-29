@@ -148,6 +148,7 @@ def word_guess_game():
             print("Thanks for playing!")
             print("Returning to main menu...")
             time.sleep(1.5)
+            from games_menu import games_menu
             games_menu()
 
 word_guess_game()         

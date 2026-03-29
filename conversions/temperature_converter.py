@@ -6,10 +6,12 @@ def temperature_converter():
         print("Welcome to Temperature Converter.")
         print("1. Celsius to Fahrenheit")
         print("2. Fahrenheit to Celsius")
-        print("\nType 'quit' (2 times) to go back.")
+        print("\nType 'quit' to go back.")
 
         choice = input("\nSelect (1-2): ").strip().lower()
-        if choice == 'quit': return
+        if choice == "quit":
+            from converter_menu import converter_menu
+            converter_menu()
 
         try:
             val = input().strip().lower()
