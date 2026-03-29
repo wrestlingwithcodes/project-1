@@ -1,11 +1,6 @@
 <h1> Basic Console Application written with Python <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/960px-Python-logo-notext.svg.png" alt="image" width="25" height="25"></h1>
 This is a modular, terminal-based console application to practice the fundamentals of Python.
 
-#Features
-Main menu includes a dice roller 
-
-Features
-
 ### Main Menu
 <img src="https://github.com/wrestlingwithcodes/project-1/blob/main/images_for_README/mainmenu.PNG" alt="mainmanuimage" width="209" height="145">
 
