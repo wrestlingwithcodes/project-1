@@ -27,7 +27,7 @@ A dedicated sub-menu for quick calculations across three domains:
 
 A collection of interactive mini-games, including:
 * **Word Guesser:** A classic word challenge.
-<img src="https://github.com/wrestlingwithcodes/project-1/blob/main/images_for_README/wordguesser.PNG" alt="mainmanuimage" width="191" height="127">
+<img src="https://github.com/wrestlingwithcodes/project-1/blob/main/images_for_README/wordguesser.PNG" alt="mainmanuimage" width="440" height="350">
 * **Number Guesser:** A simple "Higher or Lower" game.
 * **Tic-Tac-Toe:** A 2-player strategy game played directly in the console.
 
