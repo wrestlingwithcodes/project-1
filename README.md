@@ -27,6 +27,12 @@ A collection of interactive mini-games, including:
 * **Number Guesser:** A simple "Higher or Lower" game.
 * **Tic-Tac-Toe:** A 2-player strategy game played directly in the console.
 
+> [!NOTE]
+> This is a learning project, so some "bugs" are expected!
+>I am currently working on the following improvements:
+>- Refining the **Turtle Race** window reset logic to prevent occasional crashes.
+>- Enhancing input validation in the **Word Guesser** game.
+
 
 # Acknowledgments
 * Some of the codes were built with the help of Gemini and Github Copilot.
